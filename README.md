@@ -6,12 +6,12 @@ This project demonstrates how to create a Retrieval-Augmented Generation (RAG) p
 
 # Project Structure
 - extract_text_from_pdf(pdf_path): A function that extracts text from a PDF file and returns it as a Document object.
-RecursiveCharacterTextSplitter: A utility to split the text into chunks of manageable size.
-OllamaEmbeddings: A class to create embeddings for the text chunks.
-Chroma: A vector store to store the embeddings for efficient retrieval.
-ollama_llm(question, context): A function to call the Ollama Llama3 model with a question and context, and return the response.
-rag_chain(question): A function that retrieves relevant chunks based on the question and generates a response using the Ollama Llama3 model.
-get_important_facts(question): A wrapper function that calls rag_chain to get important facts based on a question.
+-RecursiveCharacterTextSplitter: A utility to split the text into chunks of manageable size.
+-OllamaEmbeddings: A class to create embeddings for the text chunks.
+-Chroma: A vector store to store the embeddings for efficient retrieval.
+-ollama_llm(question, context): A function to call the Ollama Llama3 model with a question and context, and return the response.
+-rag_chain(question): A function that retrieves relevant chunks based on the question and generates a response using the Ollama Llama3 model.
+-get_important_facts(question): A wrapper function that calls rag_chain to get important facts based on a question.
 
 
 ## Requirements
